@@ -45,3 +45,10 @@
 .reset-btn:hover{
   background-color: #f8f8f8;
 }
+
+.game-stats {
+  text-align: left;
+  width: 300px;
+  margin-top: 20px;
+  color: #383838;
+}
