@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Tic Tac Toe Game using React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a simple yet engaging Tic Tac Toe game built using React JS. The game allows two players to compete against each other in a classic 3x3 grid format. The primary focus of the project is to demonstrate the use of React JS for building interactive user interfaces, and to showcase the implementation of custom hooks and game logic to track wins and losses.
 
-## Available Scripts
+## Features
+- **Interactive Gameplay**: Smooth and responsive game board where players can take turns to place their markers (X or O).
+- **Custom Hooks**: Utilized custom React hooks to manage game state, handle player turns, and check for win/loss conditions.
+- **Win/Loss Tracking**: Built-in logic to determine the winner or if the game ends in a draw. Keeps track of the game status in real-time.
+- **Restart Option**: Ability to reset the game board to start a new game without refreshing the page.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/raghavbud1597/tic-tac-toe.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd tic-tac-toe-react
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+5. Open your browser and navigate to `http://localhost:3000` to see the game in action.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+- Click on any empty cell in the grid to place your marker.
+- Players alternate turns, with Player 1 starting as 'X' and Player 2 as 'O'.
+- The game automatically checks for a winner or a draw after each turn.
+- To restart the game, click the "Restart" button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Custom Hooks
+The project makes use of custom hooks to encapsulate and manage the game logic efficiently:
+- **useTicTacToe**: Manages the state of the game, including the game board and the current player's turn.
 
-### `npm test`
+## Game Logic
+The logic to track wins and losses involves checking the rows, columns, and diagonals of the grid after each move. If a player succeeds in placing three of their markers in a line, they are declared the winner. If the grid is filled without any player winning, the game is declared a draw.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
+Contributions are welcome! If you have any ideas or suggestions to improve the game, feel free to fork the repository and submit a pull request.
 
-### `npm run build`
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out the Tic Tac Toe game built with React JS. Have fun playing!
