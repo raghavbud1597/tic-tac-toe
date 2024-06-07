@@ -9,6 +9,8 @@ This project is a simple yet engaging Tic Tac Toe game built using React JS. The
 - **Win/Loss Tracking**: Built-in logic to determine the winner or if the game ends in a draw. Keeps track of the game status in real-time.
 - **Restart Option**: Ability to reset the game board to start a new game without refreshing the page.
 
+## Deployed Link - https://raghavbud1597.github.io/tic-tac-toe/
+
 ## Installation
 
 1. Clone the repository:
